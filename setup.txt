@@ -1,0 +1,33 @@
+1. Create a folder with any name
+2. inside the folder, Create index.html & script.js files
+3. inside index.html :-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</html>
+
+Type this..and press ctrl + s 
+
+4. Go to extensions and download 'live server' by Ritwick dey.
+5. open index.html file and press right click and click 'open with live server'.
+6. It will open a blank page with a local host link website.
+7. Rigth click on the website blank page. Go to inspect.. At the right side there will be 'console'.
+8. Click 'console'. And that will be your output section for your javascript code.
+9. Now to test:-
+   i. open script.js file.
+   ii. Type...
+   console.log("Welcome to java script !")
+   iii. press ctrl+s -> To save.
+   iv. Now go to the website -> inspect -> console.
+   v. check if "Welcome to java script !" is displayed or not.
+   vi. if not displayed follow the above all steps carefully.
+
+10. In this way JavaScript setup is done.. from now repeat the same process and write or practice or code in script.js for java script
