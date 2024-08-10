@@ -1,0 +1,23 @@
+.dark{
+    background-color: black;
+    #heading3{
+        color: white;
+    }
+    #mode{
+        background-color: white;
+        color: black;
+        width: 30%;
+        height: 30px;
+        border: 2px solid white;
+    }
+}
+.light{
+    background-color: aliceblue;
+    #mode{
+        background-color: black;
+        color: white;
+        width: 30%;
+        height: 30px;
+        border: 2px solid black;
+    }
+}

@@ -62,3 +62,59 @@ let heading4 = document.querySelector("#heading4");
 console.log(`Using .innerText => ${heading4.innerText}`);
 console.log(`Using .textContent => ${heading4.textContent}`);
 
+// Attributes :-
+// getAttribute(attr) : to get the attribute value 
+// support : <div class="hello" id="hi"></div>, here class and id are attributes of div
+let div = document.querySelector("div");
+let id = div.getAttribute("id");
+console.log(id);
+
+let clas = div.getAttribute("class");
+console.log(clas);
+
+// setAttribute(attr,value) : to set the attribute value
+let d = document.querySelector("div");
+d.setAttribute("class","box");
+
+// node.style
+let divii = document.querySelector(".boxe");
+divii.style.backgroundColor = "cyan";
+divii.style.border = "3px dotted grey";
+divii.innerHTML = "<h4>Welcome</h4>";
+divii.style.fontSize = "22px";
+
+
+// Creation of elements in html using js
+// Two step process :-
+// 1. create element using its tag name
+let element1 = document.createElement("button");
+element1.innerText = "CLICK-1";
+console.dir(element1);
+
+let element2 = document.createElement("button");
+element2.innerText = "CLICK-2";
+console.dir(element2);
+
+let element3 = document.createElement("button");
+element3.innerText = "CLICK-3";
+console.dir(element3);
+
+let element4 = document.createElement("button");
+element4.innerText = "CLICK-4";
+console.dir(element4);
+
+let boxx = document.querySelector("#box");
+boxx.append(element1);
+boxx.prepend(element2);
+boxx.before(element3);
+boxx.after(element4);
+
+// without touching html file or html elements id or class...
+// using this small logic we can create an element inside webpage without touching html
+let newheading = document.createElement("h2");
+newheading.innerHTML = "<h2>Welcome to js</h2>";
+document.querySelector("body").prepend(newheading);
+
+// deleting node
+let paragraph = document.querySelector(".para");
+paragraph.remove();
