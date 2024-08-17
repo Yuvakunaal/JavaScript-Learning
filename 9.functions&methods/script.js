@@ -194,7 +194,8 @@ console.log(scores90);
 // Use reduce method to calculate sum of all numbers in the array
 // Use reduce method to calculate product of all numbers in the array
 
-let n = prompt("Enter number :-");
+// let n = prompt("Enter number :-");
+let n = 10;
 let numbers_array = [];
 for (let i=1;i<=n;i++){
     numbers_array.push(i);
@@ -208,3 +209,18 @@ let prod_of_numbers = numbers_array.reduce((prev,curr) => {
     return prev * curr;
 });
 console.log(`Product : ${prod_of_numbers}`);
+
+
+// IIFE = Immediately invoked function expression.
+// IIFE is a function that is called immediately as soon as it is defined.
+// which we studied in functions&methods...
+
+// Normal functions :-
+(function (){
+    console.log("Without calling and naming the function.");
+})();
+
+// Arrow functions :-
+(() => {
+    console.log("Without calling and naming arrow function.");
+})();
